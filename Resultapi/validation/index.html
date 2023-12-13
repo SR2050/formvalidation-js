@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Form</title>
+    <link rel="stylesheet" href="fm.css">
+</head>
+<body>
+   
+    <div class="container">
+        <h1>Professional Form</h1>
+        <div class="form-group">
+            <input type="text" id="first-name" placeholder="First Name" required>
+            <input type="text" id="last-name" placeholder="Last Name" required>
+            <select id="department">
+                <option value="" disabled selected>Select Department</option>
+                <option value="computer">Computer</option>
+                <option value="civil">Civil</option>
+                <option value="electrical">Electrical</option>
+                <option value="textile">Textile</option>
+            </select>
+            <input type="text" id="roll" placeholder="Roll" required>
+           
+
+            <div id="gender-group">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+            </div>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="email" id="confirm-email" placeholder="Confirm Email" required>
+            <div id="area-code">
+                <input type="text" id="areacode" placeholder="Area Code" required>
+                <input type="text" id="phone" placeholder="Phone Number" required>
+            </div>
+            <textarea id="address" placeholder="Address" required></textarea>
+            <p id="alert"></p>
+            <button id="btn" >save</button>
+        </div>
+    </div>
+
+   
+    <main>
+        <div class="data">
+           
+            <table id="result" style="display:none;">
+                <tr>
+                    <th>Field</th>
+                    <th>Value</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin:rem;
+    padding:4rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 400px;
+    text-align: center;
+}
+
+.container h1 {
+    margin-top: 20px;
+    color: dodgerblue;
+}
+
+.form-group {
+    padding: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+
+#gender-group {
+    display: flex;
+    gap: 4px;
+}
+
+#gender-group label {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 3px;
+}
+
+
+
+#email, #confirm-email, #areacode, #phone {
+    width: 48%;
+    display: inline-block;
+}
+
+#area-code {
+    display: flex;
+    gap: 01px;
+}
+
+#agree-label {
+  display: flex;  
+  float: inline-end; 
+}
+
+#agree{
+ 
+}
+
+#btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    color: #fff;
+    background-color: dodgerblue;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #2e6da4;
+}
+
+#alert {
+    color: #d9534f;
+    margin-top: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+main{
+    display: flex;
+    padding: 3rem;
+}
+
+th{
+    color: greenyellow;
+}
